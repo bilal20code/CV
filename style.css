@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff; /* Blue */
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item {
+    margin: 5px 0;
+    color: #28a745; /* Green */
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #dc3545; /* Red */
+  }
+  
+  .education-item,
+  .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .education-item h3,
+  .experience-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff8800; /* Orange */
+  }
+  
+  .education-details,
+  .experience-details {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .experience-highlights {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills-list li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #6c757d; /* Gray */
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .skills-list li:nth-child(2n) {
+    background-color: #17a2b8; /* Turquoise */
+  }
+  
+  .skills-list li:nth-child(3n) {
+    background-color: #6610f2; /* Purple */
+  }
+  
+  .skills-list li:nth-child(4n) {
+    background-color: #fd7e14; /* Yellow */
+  }
+  
+  .skills-list li:nth-child(5n) {
+    background-color: #ffc107; /* Amber */
+  }
+  
